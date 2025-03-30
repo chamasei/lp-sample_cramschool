@@ -67,7 +67,7 @@ p{
   -moz-user-select: none;
   display: none;
   position: absolute;
-  top: 20px;
+  top: 15px;
   right: 20px;
   width: 30px;
   height: 24px;
@@ -163,7 +163,7 @@ main{
   animation: bgZoomOut 15s ease forwards ;
   transform-origin: center center;
   width: 100%;
-  height: 670px;
+  height: 730px;
   background-size: 480%;
   background-repeat: no-repeat;
   background-position: 70% 3%; 
@@ -176,7 +176,7 @@ main{
     background-position: 65% 3%; 
   }
   to {
-    background-size: 380%;
+    background-size: 400%;
     background-position: 73% 0%; 
   }
 }
@@ -207,7 +207,7 @@ main{
   margin: 0 auto;
   z-index: 5;
   left: 3vw;
-  top: 30px; /* 上過ぎず、キャンペーンと重ならない位置に */
+  top: 20px; /* 上過ぎず、キャンペーンと重ならない位置に */
 }
 
 .catch_container{
@@ -215,11 +215,11 @@ main{
   flex-direction: column;
   justify-content: space-between;
   align-items:end;
-  margin-right: 0;
+  margin-right: 5px;
   position: absolute;
   width:180px;
-  height: 76vh;
-  top:-10px;
+  height: 550px;
+  top:-15px;
   right:8px;
   z-index: 20;
 }
@@ -230,7 +230,7 @@ main{
   font-weight:600;
   text-align:right;
   justify-content: right;
-  margin: 4vh 10px 0px 0px;
+  margin: 4vh 0px 0px 0px;
   width: 100%;
   background-color: #2345da4b;
   color: #f6f7fa;
@@ -274,7 +274,7 @@ main{
 
 
 .slider_cover{
-  margin-top :-110px;
+  margin-top :-90px;
   background-color:transparent;
   height: 420px;
   width: 100%;
@@ -286,10 +286,10 @@ main{
   background-color:transparent;
   transform: skewY(12deg);
   overflow: visible;
-  padding: 0px 0; /* 上下の余白を調整 */
+  padding: 30px 0; /* 上下の余白を調整 */
   height: 160px;
   transform-origin: top left;
-
+  background: radial-gradient(circle, rgba(26,60,209,1) 50%, rgba(3,30,148,1) 100%);
 }
 
 .campaign-slider {
@@ -479,7 +479,7 @@ main{
 }
 
 .canpaign_title_box {  
-  margin-top:-30%;
+  margin-top:10%;
   padding-top: 3vh;
   background: radial-gradient(circle, rgba(26,60,209,1) 50%, rgba(3,30,148,1) 100%);
   width: 100%;
@@ -920,15 +920,16 @@ main{
 }
 
 .button_request_info{
-  width: 150px;
-  height: 70px;
-  padding: 15px;
-  background-color: #6a74de;
+  width: 100px;
+  height: 45px;
+  padding: 13px;
+  background: radial-gradient(circle, rgba(30,63,208,1) 58%, rgba(30,80,208,1) 100%);
+
   color: #e0e7f8;
   border-radius: 35px;
   border: none;
-  box-shadow: 1px 2px 18px -8px #484848;
-  font-size: 1.3rem;
+  box-shadow: 1px 2px 10px -8px #cacaca;
+  font-size: 0.8rem;
   font-weight: 500;
 }
 
@@ -1420,11 +1421,12 @@ main{
   }
 
   .bg-image{
-    height: 1000px;
+    height: 1600px;
     background-size: cover;
     background-size:350%;
     background-position: 65% 3%; 
     background-repeat: no-repeat;
+
   }
 
 
@@ -1444,8 +1446,8 @@ main{
     width:150px;
     height:150px;
     z-index: 20;
-    top:60%;
-    left:15%;
+    top:70%;
+    left:18%;
   }
   
   .period p{
@@ -1457,14 +1459,14 @@ main{
   
   #canpaign{
 
-    margin-top :-300px;
+    margin-top :-130px;
     padding-top: 50px;
     height:2700px;
 
   }
   
   .slider_cover{
-    margin-top :-95px;
+    margin-top :-70px;
     height: 450px;
     min-height: 450px;
     width: 100%;
@@ -1770,7 +1772,7 @@ main{
 
 /* タブレット・PC（横向き含む）ではハンバーガー非表示 */
 @media screen and (min-width: 768px) and (orientation: landscape),
-       screen and (min-width: 1024px) and (max-width: 1439px)  {
+       screen and (min-width: 1025px) and (max-width: 1439px)  {
   
   h3{
     font-size: 2.2rem;
