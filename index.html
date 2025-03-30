@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>タイトル</title>
+
+</head>
+
+
+<body>
+  <header class="header">
+    <!-- ヘッダーロゴ -->
+    <div class="logo">
+      <img src="img/Bright Academy_blue.png" alt="Bright Academy_logo.jpg">
+    </div>
+
+        <!-- ハンバーガーメニュー部分 -->
+    <div class="nav">
+      <input id="drawer_input" class="drawer_hidden" type="checkbox">
+  
+      <!-- ハンバーガーアイコン -->
+      <label for="drawer_input" class="drawer_open">
+        <span></span><span></span><span></span>
+      </label>
+  
+      <!-- メニュー（上部のみ） -->
+      <nav class="nav_content">
+        <div class="nav_inner">
+          <label for="drawer_input" class="close_btn">&times;</label>
+          <ul class="nav_list">
+            <li class="nav_item"><a href="#sales-point">特徴</a></li>
+            <li class="nav_item"><a href="#course">コース</a></li>
+            <li class="nav_item"><a href="#canpaign_detail">キャンペーン</a></li>
+            <li class="nav_item"><a href="#contact">お問い合わせ</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+      
+
+  <main>
+    
+    <div class="hero-section"><!-- トップ -->
+      <div class="bg-image"></div>
+
+        <div class="hero-title">
+          <div class ="title-box">
+            <img src="img/top_title_resize.png" alt="ブライトアカデミーの夏期集中講座" class="top_title-img">
+          </div>
+          <div class="catch_container">
+            <div class ="catch">夏休みで差をつけよう！<br>短期集中で成績UP！</div>
+            <button class = "button_request_info cta-button shine delay-0">資料請求</button>
+          </div>
+        </div>
+      <div class ="period"><p>期間：<br>7/16～8/31<br><span>ご予約受付中</span></p></div>
+
+    </div>
+
+    <section id="canpaign"><!-- キャンペーン -->
+      <div class="slider_cover">
+        <div class="angled-slider-wrapper">
+          <div class="campaign-slider">
+            <div class="slider-track">
+              <div class="slide1">
+                <div class="box_in_slide_left box_in_slide_left1">
+                  <div class="box_in_slide_left_text">
+                    <p>早割</p>
+                  </div>
+                  <div class="box_in_slide_left_num1">1</div>
+                </div>
+                <div class="box_in_slide_right box_in_slide_right1">
+                  <div class="box_in_slide_right_main1"><p>入学金<span style="color: rgba(26,60,209,1);">０</span>円！</p></div>
+                  <div class="box_in_slide_right_sub1"><p>夏のスタートダッシュを応援!</p></div>
+                </div>
+              </div>
+              <div class="slide2">
+                <div class="box_in_slide_left box_in_slide_left2">
+                  <div class="box_in_slide_left_text">
+                    <p>早割</p>
+                  </div>
+                  <div class="box_in_slide_left_num2">２</div>
+                </div>
+                <div class="box_in_slide_right box_in_slide_right2">
+                  <div class="box_in_slide_right_main2"><p>紹介で特典GET</p></div>
+                  <div class="box_in_slide_right_sub2">
+                    <p>図書カード</p>
+                    <p><span style="font-size:smaller;"><span style="color:rgba(26,60,209,1);">1,000円分</span>を</span></p>
+                    <p>プレゼント</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide3">
+                <div class="box_in_slide_left box_in_slide_left3">
+                  <div class="box_in_slide_left_text">
+                    <p>早割</p>
+                  </div>
+                  <div class="box_in_slide_left_num3">３</div>
+                </div>
+                <div class="box_in_slide_right box_in_slide_right3">
+                  <div class="box_in_slide_right_main3">
+                    <p>授業料</p>
+                    <p><span style="color:rgba(26,60,209,1);">5％</span></p>
+                    <p>OFF</p>
+                  </div>
+                  <div class="box_in_slide_right_sub3">
+                    <p>早期申込でもっとおトクに！</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide1">
+                <div class="box_in_slide_left box_in_slide_left1">
+                  <div class="box_in_slide_left_text">
+                    <p>早割</p>
+                  </div>
+                  <div class="box_in_slide_left_num1">1</div>
+                </div>
+                <div class="box_in_slide_right box_in_slide_right1">
+                  <div class="box_in_slide_right_main1"><p>入学金<span style="color: rgba(26,60,209,1);">０</span>円！</p></div>
+                  <div class="box_in_slide_right_sub1"><p>夏のスタートダッシュを応援!</p></div>
+                </div>
+              </div>
+              <div class="slide2">
+                <div class="box_in_slide_left box_in_slide_left2">
+                  <div class="box_in_slide_left_text">
+                    <p>早割</p>
+                  </div>
+                  <div class="box_in_slide_left_num2">２</div>
+                </div>
+                <div class="box_in_slide_right box_in_slide_right2">
+                  <div class="box_in_slide_right_main2"><p>紹介で特典GET</p></div>
+                  <div class="box_in_slide_right_sub2">
+                    <p>図書カード</p>
+                    <p><span style="font-size:smaller;"><span style="color:rgba(26,60,209,1);">1,000円分</span>を</span></p>
+                    <p>プレゼント</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide3">
+                <div class="box_in_slide_left box_in_slide_left3">
+                  <div class="box_in_slide_left_text">
+                    <p>早割</p>
+                  </div>
+                  <div class="box_in_slide_left_num3">３</div>
+                </div>
+                <div class="box_in_slide_right box_in_slide_right3">
+                  <div class="box_in_slide_right_main3">
+                    <p>授業料</p>
+                    <p><span style="color:rgba(26,60,209,1);">5％</span></p>
+                    <p>OFF</p>
+                  </div>
+                  <div class="box_in_slide_right_sub3">
+                    <p>早期申込でもっとおトクに！</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="canpaign_title_box">
+        <div class="canpaign_title">
+          <h3 >今なら<br>キャンペーン実施中！</h3>
+        </div>
+      </div>
+        <div class="canpaign_wrapper">
+          <div id = "canpaign_detail" class="canpaign_detail">
+            <div class ="canpaign_detail_title">
+              <div class="ribbon_canpaign">
+              <h3><span>ブライトアカデミーの</span><br>夏期集中講座キャンペーン</h3>
+              </div>
+              <div class ="canpaign_detail_catch">
+                <p class="just_now">\ ★今だけ！/</p>
+                <p >入学金無料 & 友達紹介でギフトGET！<br>
+                さらに、今なら早割り特典も！！</p>
+            </div>
+            </div>
+            <div class="canpaign_detail_contents">
+              <div class ="canpaign_detail_contents_text">
+                <div class="canpaign_detail_contents_text_catch">
+                  <span>◆ </span>入学金（通常〇〇円）→ <br>
+                </div>
+                <br class="sp-hide">
+                <p class="canpaign_contents_emphasis ">今だけ 0円！</p><br>
+              </div>
+              <div class ="canpaign_detail_contents_text">
+                <div class="canpaign_detail_contents_text_catch">
+                  <span>◆ </span>お友達紹介で →  <br>
+                </div>
+                <p class="canpaign_contents_emphasis">図書カード<br>1000円分プレゼント</p><br>
+              </div>
+              <div class ="canpaign_detail_contents_text">
+                <div class="canpaign_detail_contents_text_catch">
+                  <span>◆ </span>*月*日までにお申込みの方 →  <br>
+                </div>
+                <br class="sp-hide">
+                <p class="canpaign_contents_emphasis">授業料5％OFF！</p>
+              </div>
+            </div>
+
+            <div class="canpaign_detail_terms">
+            【条件・期間】　<br class="pc-hide">
+            ①対象:新規ご入会の方　<br class="pc-hide">
+            ②期間:2025年〇月〇日〜〇月〇日まで<br class="pc-hide">
+            ③申込み方法:このページから もしくは お電話</p>
+            </div>
+          </div>
+
+          <div class="CTA_first_wrapper">
+            <div class ="CTA_first">
+              <div class ="call_box">
+                <h3>この特典で申し込む</h3>
+                <p>今すぐ話を聞きたい方はこちら</p>
+                <a href="tel:0120******" class="cta-phone-button">
+                  <img src="img/free_dial.png" alt="フリーダイヤルアイコン" class="phone-icon">
+                </a>
+              </div>
+              <div class="form_box_wrapper">
+                <div class="form_box">
+                  <div class="form_text">
+                    <h3>フォームでのお申込みはこちらから</h3>
+                    <p>24時間以内に返信いたします</p>
+                  </div>
+                  <div class ="form_button">
+                    <button class = "button_appli_form">フォームからお申込み</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    
+    </section>
+
+    <section id="course"><!-- 対象 -->
+      <div class="course_wrapper">
+        <div class="course_container">
+          <div class="course_box">
+
+            <h3 class="corse_title" class="emphasis_design21"><span>小学生5・6年生コース</span></h3>
+            <div class="course_subtitle">中学生に向けて今から備え、夢に近づこう！</div>
+
+            <div class="course_grade_wrapper">
+              <div class ="couse_grade">5年生（基礎力を確実に！）</div>
+              <div class="course_text">
+                <p>「学ぶ楽しさ」を大切にしながら、得意科目を伸ばし、苦手科目を克服！
+                  計算力・読解力を中心に、中学進学に向けた土台を作ります！
+                </p>
+              </div>
+            </div>
+
+            <div class="course_grade_wrapper">    
+              <div class ="couse_grade">6年生（中学準備＋応用力UP！）</div>
+              <div class="course_text">
+                <p>「つまずきを残さない！」をテーマに、応用問題にもチャレンジ！
+                  中学で必要な学習習慣を身につけ、スムーズな進学をサポート！
+                </p>
+              </div>
+            </div> 
+          </div>   
+
+          <div class="course_img">
+            <img src="img/junior_girl.jpg" alt="小学生の勉強する女の子" class="junior_girl">
+            <img src="img/junior_boy.jpg" alt="小学生の勉強する男の子" class="junior_boy">
+          </div>         
+        </div> 
+
+        <div class="course_container">
+          <div class="course_box">
+            <div class="course"></div>
+            <h3 class="corse_title">中学生コース</h3>
+            <div class="course_subtitle">高校受験を意識した学習へ</div>
+
+            <div class="course_grare_wrapper">
+              <div class ="couse_grade">中学1年生（スタートダッシュがカギ！）</div>
+              <div class="course_text">
+                <p>小学校とは違う「中学の勉強」に慣れ、学習リズムを確立！
+                  テスト対策・ノートの取り方・暗記法も徹底指導！
+                </p>
+              </div>
+            </div>
+
+            <div class="course_grare_wrapper">    
+              <div class ="couse_grade">中学2年生（ここが勝負の1年！）</div>
+              <div class="course_text">
+                <p> 受験の基礎が決まる重要な学年！
+                  「このままで大丈夫？」を解消し、苦手を放置せず得点力UP！
+                  中学で必要な学習習慣を身につけ、スムーズな進学をサポート！
+                </p>
+              </div>
+            </div>  
+
+            <div class="course_grare_wrapper">    
+              <div class ="couse_grade"> 中学3年生（受験対策＋得点力UP！）</div>
+              <div class="course_text">
+                <p> 「あと10点を確実に取る」ための徹底対策！
+                志望校別の受験対策で、最短ルートで合格へ導きます！
+                </p>
+              </div>
+            </div>            
+          </div>
+        
+          <div class="course_img">
+            <img src="img/junior-high1.jpg" alt="中学生の勉強する女の子" class="junior_high_girl1">
+            <img src="img/junior-high2.jpg" alt="中学生の勉強する女の子2" class="junior_high_girl2">
+          </div>
+        </div>
+      </div>                  
+    </section>
+
+    <section id="cta2"><!-- CTA -->
+      <div class="cta2_wrapper">
+        <div class="cta2_request_info">
+          <p class="cta2_title">資料請求<br>\ お問い合わせはこちらから /</p>
+          <p class="cta2-subtext"><mark>資料取り寄せだけでもOK！</mark></p>
+          <button class = "button_request_info">資料請求</button>
+        </div>
+
+        <div class="cta2_appli">
+          <div class="oneminute"><span>★</span>入力は1分！<span>★</span></div>      
+            <p class="cta2_title"><br>\ キャンペーン価格で申し込む /</p>
+            <p class="cta2-subtext"><mark>今なら入学金0円＋早割5％OFF！</mark></p>
+          <button class = "button_appli_form2">フォームで<br>お申込み</button>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="sales-point"><!-- sales point -->
+      <div class="sales-point_title_wrapper">
+        <div class ="sales-point_title">
+          <h3>1か月で勉強が変わる。未来が変わる。</h3>
+          <hr class ="title_hr">
+        </div>
+      </div>
+      <img src="img/わからない辛さを わかる喜びに変える！.png" alt="モチベUP循環イメージ" class="cicle_img"> 
+
+      <div class="sales-point_wrapper">
+        <div class="sales-point_box">
+          <p class ="sales-point_subtitle box box1"><i class="fa-solid fa-square-check fa-xl" style="color: #FFD43B;"></i><mark>　苦手をなくすと、勉強がもっと楽しくなる！</mark></p>
+          <p class="sales-point_text">
+            「数学ができない…」そんな不安を、成功体験に変える！まずは「得意」を伸ばして、自信をつける
+          </p>
+          <img src="img/さっぱりわからん.jpg" alt="わからない女の子"  class="sales-point_img">
+        </div>
+        <div class="sales-point_box">
+          <p class ="sales-point_subtitle box box2"><i class="fa-solid fa-square-check fa-xl" style="color: #FFD43B;"></i><mark>　短期間だから、集中して頑張れる！</mark></p>
+          <p class="sales-point_text">
+            夏休みの1か月、決められた時間で最大限の成果を！  効率的なカリキュラムで、無駄なく成績UP！
+          </p>
+          <img src="img/studying.jpg" alt="勉強中の女の子"  class="sales-point_img">
+        </div>
+        <div class="sales-point_box">
+          <p class ="sales-point_subtitle box box3"><i class="fa-solid fa-square-check fa-xl" style="color: #FFD43B;"></i><mark>　講師がマンツーマンでサポート！</mark></p>
+          <p class="sales-point_text">
+            「このままじゃヤバい…」そんな悩みに寄り添う個別指導！  1人じゃ頑張れなくても、塾ならやり切れる！
+          </p>
+          <img src="img/student.jpg" alt="勉強を教えてもらう女の子"  class="sales-point_img">
+        </div>  
+        <div class="sales-point_box">
+          <p class ="sales-point_subtitle box box4"><i class="fa-solid fa-square-check fa-xl" style="color: #FFD43B;"></i><mark>　受験のプロが教えるから、合格に直結！</mark></p>
+          <p class="sales-point_text">
+            過去の合格者が実践した勉強法を完全指導！  本当に必要な勉強だけを、最短ルートで学べる！
+          </p>
+          <img src="img/cherry.jpg" alt="桜"  class="sales-point_img">
+        </div>   
+        </div>
+    </section>
+
+
+
+    <section id="schedule"><!-- スケジュール -->
+      <div class="schedule_title ">
+        <h3>スケジュールのご案内</h3>
+        <hr class ="title_hr">
+      </div>
+      <div class ="schedule">
+        <li>申込受付開始</li>
+          <p>6月1日(土)より受付</p>
+          <p>窓口・電話・FAX・インターネット受付</p>
+        <li>夏期講習期間</li>
+          <p>7月22日(月)～8月31日(土)</p>
+          <p> 校舎窓口受付時間 13:30 ~ 20:30(月~土)</p>
+      </div>
+    </section>
+
+
+
+    <section id="voice"><!-- 受講生の声 -->
+      <div class="voice_title_wrapper">
+        <div class ="voice_title" style="margin-bottom: 20px;">
+          <h3> 受講生の声・成功事例<br>～入塾者の声</h3>
+          <hr class ="title_hr">
+        </div>
+      </div>
+      <div class ="voice_container">
+        <div class ="voice_wrapper">
+          <div class ="voice_box voice_box_shadow"></div>
+          <div class="voice_box voice_box_content">
+            <p>ブライトアカデミーに来るまでは勉強は大嫌いでした。
+              何がわからないかがわからなかったのが、ここで教えてもらううちに、どこがわかってないのかがわかるようになってきて、自分から質問することも増え、勉強することが面白くなってきました。
+              成績も上がるし、自分でも自信がついたと思います。
+            </p>
+            <div class="whosevoice"><p>小学生　Aさん</p></div>
+          </div>
+        </div>
+
+        <div class ="voice_wrapper">
+          <div class ="voice_box voice_box_shadow"></div>
+          <div class="voice_box voice_box_content">
+            <p>ブライトアカデミーで教えてもらうようになってから、今までは勉強の仕方を知らなかったんだなあと思いました。
+              今では友達に勉強を教えて欲しいと言われるまでになりました。
+            </p>
+            <div class="whosevoice"><p>小学生　Bさん</p></div>
+          </div>
+        </div>
+
+        <div class ="voice_wrapper">
+          <div class ="voice_box voice_box_shadow"></div>
+          <div class="voice_box voice_box_content">
+            <p>私は特に数学が苦手だったのですが、先生に丁寧に説明してもらえて、わかるようになり、勉強することが楽しくなりました。夏期講習の後、学校の先生がびっくりするほど、成績があがって、とても嬉しかったです。
+              これからも勉強を頑張りたいと思います。
+            </p>
+            <div class="whosevoice"><p>中学生　Cさん</p></div>
+          </div>
+        </div>
+
+        <div class ="voice_wrapper">
+          <div class ="voice_box voice_box_shadow"></div>
+          <div class="voice_box voice_box_content">
+            <p>夏休みが終わってからの試験で、自分が他の人と大きく差がついていることにビックリしました。
+              また、夏休みが終わってからも勉強する習慣がついたので、成績が驚くほどアップしました。
+            </p>
+            <div class="whosevoice"><p>中学生　Dさん</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="cta3"><!-- CTA -->
+
+      <div class="cta3_title">夏はもうすぐ！<br>
+        チャンスは今だけ！
+      </div>
+      <div class="cta3_wrapper"> 
+        <div class="cta3_getChance">
+          <h3 class ="choice_getChance">迷わずチャンスを掴む人はこちら <span>▼</span></h3>
+          <button class = "button_call2 cta-button shine shine-delay-0">今すぐお電話</button>
+          <button class = "button_appli_form3 cta-button shine shine-delay-2">フォームからお申込み</button>
+        </div>
+        <div class="cta3_getPuzzled">
+          <h3 class ="choice_getPuzzled ">もう少し迷いたい人はこちら <span>▼</span></h3>
+          <button class = "request_info2 cta-button shine shine-delay-1">まずは資料請求</button>
+          <a class="cta-button shine shine-delay-3" href="#campaign">キャンペーンの詳細を<br>もう一度見る</a>
+        </div>
+      </div> 
+
+
+    </section>
+
+  </main>
+
+  <script>
+const targets = document.querySelectorAll('.slide-in-left, .slide-in-right, .box');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('active');
+      observer.unobserve(entry.target); // ← これで1回だけアニメーション
+    }
+  });
+}, {
+  threshold: 0.1
+});
+
+targets.forEach(target => observer.observe(target));
+
+//アニメーションの無限ループ
+
+
+const track = document.querySelector('.slider-track');
+const slides = Array.from(track.children);
+const slideWidth = slides[0].offsetWidth;
+
+// 元のスライドをクローンして2セット追加（合計3セット）
+for (let i = 0; i < 2; i++) {
+  slides.forEach(slide => {
+    const clone = slide.cloneNode(true);
+    track.appendChild(clone);
+  });
+}
+
+
+const totalSlides = track.children.length;
+const totalWidth = slideWidth * totalSlides;
+track.style.width = `${totalWidth}px`;
+
+let position = 0;
+const loopWidth = slideWidth * slides.length; // 1セット分だけループ
+
+function animate() {
+  position += 1;
+  track.style.transform = `translateX(-${position}px)`;
+
+  if (position >= loopWidth) {
+  track.style.transition = 'none';
+
+  requestAnimationFrame(() => {
+    position = 0;
+    track.style.transform = `translateX(0px)`;
+
+    // 次のフレームで transition 戻す
+    requestAnimationFrame(() => {
+      track.style.transition = 'transform 0.5s linear';
+    });
+  });
+}
+
+
+  requestAnimationFrame(animate);
+}
+
+track.style.transition = 'transform 0.5s linear';
+requestAnimationFrame(animate);
+
+  </script>
+</body>
+
+
+</html>           
