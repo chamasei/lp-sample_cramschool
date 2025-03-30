@@ -1415,6 +1415,19 @@ main{
     margin-right: 0;
   }
 
+  .button_request_info{
+    width: 120px;
+    height: 55px;
+    padding: 13px;
+
+  
+
+    border-radius: 35px;
+    border: none;
+
+    font-size: 1.0rem;
+    font-weight: 500;
+  }
   .title-box{
     margin-top:2vh;
     left:3%;
